@@ -9,13 +9,12 @@
 </head>
 <body id="yet" style="width: 100vw;height: 100vh;display: flex;flex-direction: row;align-items: center;justify-content: center;align-content: center;">
     <!--This draws the canvas on the webpage -->
-    <canvas id="mycanvas"></canvas> 
+    <canvas id="mycanvas" width="100vw" height="100vh"></canvas> 
   </body>
   <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
   <script style="margin: auto;">
   var programCode = function(processingInstance) {
     with (processingInstance) {
-      size(400, 700); 
       frameRate(50);
         
       // Paste code from Khan Academy here:
